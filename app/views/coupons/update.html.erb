@@ -1,0 +1,6 @@
+<%= form_for(@coupon) url: coupons_path do |f| %>
+	<%= f.text_field :store %>
+	<%= f.text_field :coupon_code %>
+
+	<%= f.submit %>
+<% end %>
